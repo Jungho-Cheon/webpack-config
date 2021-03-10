@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-import '../styles/recipes.scss';
+import '../styles/header.scss';
 
-const Recipes = () => {
+const Header = () => {
   return (
-    <div className="recipes-container">
+    <header>
       <h2>Recipe!</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -12,8 +12,8 @@ const Recipes = () => {
         voluptatem, maxime quae rerum? Accusamus sint dolor nesciunt cumque ex
         modi doloremque?
       </p>
-    </div>
+    </header>
   );
 };
 
-export default Recipes;
+export default Header;

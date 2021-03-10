@@ -1,17 +1,22 @@
-import Recipes from './Recipes';
+import Header from './Header';
+
+import foodImage from '../images/background.jpeg';
 import '../styles/index.scss';
 import '../styles/app.scss';
 
 const App = () => {
   return (
-    <section className="hero">
+    <>
+      <section className="hero">
+        <Header />
+      </section>
       <main>
         <section>
           <h1>App!</h1>
-          <Recipes />
+          <img src={foodImage} width="100%" alt="img" />
         </section>
       </main>
-    </section>
+    </>
   );
 };
 
